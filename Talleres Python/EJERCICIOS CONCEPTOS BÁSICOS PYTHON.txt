@@ -1,0 +1,92 @@
+#EJERCICIOS CONCEPTOS BÁSICOS PYTHON
+
+#Ejercicio 1
+
+# base = int(input("Ingrese la base del Triángulo\n"))
+# altura = int(input("Ingrese la altura del Triángulo:\n"))
+# area = (base * altura) / 2
+# print("El Área del Triángulo es: ",area)
+
+
+#Ejercicio 2
+
+# dolares = int(input("Ingrese la cantidad de dólares a convertir:\n"))
+# valorenpesos = int(input("Ingrese la tasa de conversión en pesos colombianos:\n"))
+# respuesta = dolares * valorenpesos
+# print("El valor en pesos colombianos es: $",respuesta)
+
+
+#Ejercicio 3
+
+# centigrados = float(input("Ingrese los grados centígrados:\n"))
+# fahrenheit= (centigrados * (9/5)) + 32
+# print("En grados fahrenheit son: ",fahrenheit)
+
+
+#Ejercicio 4
+
+# anios = int(5)
+# diasxanio = int(365)
+# horasxdia = int(24)
+# segundosxhora = int(3600)
+# segundoslustro = anios * diasxanio * horasxdia * segundosxhora
+# print("La cantidad de segundos que tiene un lustro es: ",segundoslustro)
+
+
+#Ejercicio 5
+
+# minutos = float(12.5)
+# segundos = int(60)
+# total_segundos = minutos * segundos
+# print("La luz del sol se demora en llegar a Marte: ",total_segundos," segundos.")
+
+
+#Ejercicio 6
+
+# distanciencentimetros = 100000
+# longitud_llanta = 50 * 3.1416
+# total_vueltas = int(distanciencentimetros/longitud_llanta)
+# print("Una llanda con 50 de diámetro da ",total_vueltas, " vueltas en 1 kilómetro.")
+
+
+#Ejercicio 7
+
+# import math
+# altura = 20
+# angulo = float(math.radians(22))
+# sombra = altura/math.tan(22)
+# print("La longitud de la sombra de un edificio de 20 mts es: ", sombra)
+
+
+#Ejercicio 8
+
+# edad1 = int(input("Ingrese la Edad Nro 1:\n"))
+# edad2 = int(input("Ingrese la Edad Nro 2:\n"))
+# igual = False
+# if edad1 == edad2:
+# 	igual = True
+# print(igual)
+
+
+#Ejercicio 9
+
+# from datetime import date
+# anio = int(input("Ingrese Su Año de Nacimiento: "))
+# mes = int(input("Ingrese Su Mes de Nacimiento: "))
+# dia = int(input("Ingrese Su Día de Nacimiento: "))
+# fechaNacimiento = date(anio,mes,dia)
+# hoy = date.today()
+# meses = (hoy.year - anio) * 12 + (hoy.month - mes)
+# print("La cantidad de meses trascurrida desde su Nacimiento son: ", meses)
+
+
+#Ejercicio 9
+
+# Español = float(input("Ingrese su nota de Español:\n"))
+# Matematicas = float(input("Ingrese su nota de Matemáticas:\n"))
+# Economia = float(input("Ingrese su nota de Economía:\n"))
+# Programacion = float(input("Ingrese su nota de Programación:\n"))
+# Ingles = float(input("Ingrese su nota de Inglés:\n"))
+
+# promedio = (Español + Matematicas + Economia + Programacion + Ingles)/5
+# print("El Promedio del Alumno es: ",promedio)
